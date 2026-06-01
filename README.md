@@ -6,21 +6,21 @@ This repository contains the scripts from an original benchmark comparing ZenRow
 
 ## Test Targets
 
-| Target | Type |
-|--------|------|
-| Amazon product page | Protected |
-| Glassdoor company page | Protected |
-| LinkedIn company profile | Protected |
-| Google SERP results page | Protected |
-| Mid-sized e-commerce site behind Cloudflare, like Ikea.com| Protected |
-| Zillow real estate listing | Unprotected |
-| BBC news article | Unprotected |
+| Target | Type | URL |
+|--------|------|------|
+| Amazon product page | Protected | https://www.amazon.com/ref=nav_logo |
+| Glassdoor company page | Protected | https://www.glassdoor.com/Overview/Working-at-Google-EI_IE9079.11,17.htm |
+| LinkedIn company profile | Protected | https://www.linkedin.com/in/satyanadella/ |
+| Google SERP results page | Protected | https://www.google.com/search?q=web+scraping+api |
+| Mid-sized e-commerce site behind Cloudflare, like Ikea.com| Protected | https://www.ikea.com/ |
+| Zillow real estate listing | Unprotected | https://www.zillow.com/homes/for_sale/ |
+| BBC news article | Unprotected | https://www.bbc.com/news/technology |
 
 ---
 
 ## Methodology
 
-- **10 requests** per target per platform
+- **100 requests** per target per platform
 - ZenRows configured with `mode=auto` on all requests
 - Firecrawl's /scrape endpoint
 - Bright Data's Web Unlocker
